@@ -3,7 +3,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .header,
-.hero-text {
+.hero {
   text-shadow: 0px 0px 16px #333;
 }
 
@@ -12,28 +12,22 @@ h1,h2,h3,h4,h5,h6 {
   height: 3.5rem;
 }
 
-.sidebar,
-.main-content {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  min-height: 100vh;
-}
-
 #root {
   position: relative;
   overflow-x: hidden;
 }
 
-.app {
+body {
   background-image: url('../images/vincent-guth-168867.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  min-height: 100vh;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
   overflow-x: hidden;
 }

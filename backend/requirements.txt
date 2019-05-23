@@ -1,7 +1,0 @@
-cachetools
-git+https://github.com/aleehedl/python-checkout.git
-hug
-marshmallow
-simplejson
-pynamodb
-zappa
