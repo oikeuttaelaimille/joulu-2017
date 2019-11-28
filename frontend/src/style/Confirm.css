@@ -1,6 +1,6 @@
 .confirm .card {
   border: 0;
-  background-color: rgba(51,51,51,0.6);
+  background-color: rgba(51, 51, 51, 0.6);
 }
 
 @media (min-width: 768px) {

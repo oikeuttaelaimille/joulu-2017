@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 import { Modal, ModalHeader } from 'reactstrap'
 
-import PaymentForm from './PaymentForm';
+import PaymentForm from './PaymentForm'
 
 interface Props {
   isOpen: boolean
@@ -12,7 +12,8 @@ interface Props {
 const PaymentModal: React.FC<Props> = ({ isOpen, toggle }) => {
   return (
     <Modal isOpen={isOpen}>
-      <ModalHeader toggle={toggle}>Tilaa kortti</ModalHeader>
+      <ModalHeader toggle={toggle}>Tilaa ihana joulukortti!</ModalHeader>
+
       <PaymentForm />
     </Modal>
   )

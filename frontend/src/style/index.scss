@@ -1,0 +1,19 @@
+@import './colors.scss';
+
+.logo {
+  height: 3.5rem;
+}
+
+#root {
+  position: relative;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: 1.2rem;
+}

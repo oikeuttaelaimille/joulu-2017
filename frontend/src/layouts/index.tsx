@@ -3,8 +3,8 @@ import Helmet from 'react-helmet'
 
 import 'modern-normalize'
 import '../styles/normalize'
-import '../style/index.css';
-import '../style/App.css';
+import '../style/index.scss'
+import '../style/App.css'
 
 const IndexLayout: React.SFC = ({ children }) => (
   <div>
@@ -15,9 +15,7 @@ const IndexLayout: React.SFC = ({ children }) => (
         { name: 'keywords', content: 'gatsbyjs, gatsby, javascript, sample, something' }
       ]}
     />
-    <div className="container">
-        {children}
-    </div>
+    <div className="container">{children}</div>
   </div>
 )
 
