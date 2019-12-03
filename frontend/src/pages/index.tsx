@@ -48,7 +48,7 @@ const IndexPage: React.FC<Props> = ({ data }) => {
           <h2 className="text-primary">Joululahja ystävällesi – ja eläimille ❤️</h2>
 
           <p className="font-weight-bold text-primary">
-            Anna läheisellesi tänä jouluna tavaran sijaan kaunis kortti, joka ilahduttaa takuulla jokaisen eläinten ystävän mieltä –{' '}
+            Anna läheisellesi tänä jouluna tavaran sijaan kaunis aineeton lahja, joka ilahduttaa takuulla jokaisen eläinten ystävän mieltä –{' '}
             <i>ja vie samalla eteenpäin eläinten oikeuksia.</i>
           </p>
           <p>
@@ -67,7 +67,7 @@ const IndexPage: React.FC<Props> = ({ data }) => {
           </p>
           <div className="justify-content-center d-flex flex-row">
             <button type="button" className="btn btn-primary btn-lg mt-4 mb-4" data-card-id="Naalikortti" onClick={selectCard}>
-              Tilaa kortti!
+              Tilaa aineeton lahja!
             </button>
           </div>
 
@@ -109,7 +109,7 @@ const IndexPage: React.FC<Props> = ({ data }) => {
         <Img fluid={data.naali.childImageSharp.fluid} className="mb-4" />
         <div className="justify-content-center d-flex flex-row">
           <button type="button" className="btn btn-primary btn-lg mb-4" data-card-id="Naalikortti" onClick={selectCard}>
-            Tilaa kortti!
+            Tilaa aineeton lahja!
           </button>
         </div>
         <div className="text-center">
